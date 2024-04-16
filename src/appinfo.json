@@ -1,0 +1,13 @@
+{
+    "vendor": "5centsCDN",
+    "largeIcon": "images/logo.png",
+    "icon": "images/logo.png",
+    "main": "index.html",
+    "id": "test.demo.webapp",
+    "title": "5centsCDN",
+    "type": "web",
+    "version": "0.0.1",
+    "iconColor": "#ffffff",
+    "bgColor": "#ffffff",
+    "uiRevision": 2
+}

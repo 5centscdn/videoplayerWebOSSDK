@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5centsCDN</title>
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="vh-100">
+    <div class="container">
+        <div class="row flexbox-container ">
+            <div class="content col-12 d-flex align-items-center justify-content-center" width="w-100">
+                <div class="col-md-10 p-0">
+                    <video id="myVideo" class="w-100 mb-1" ></video>
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <input type="text" id="hashid" class="form-control" placeholder="Enter hash id here">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" id="title" class="form-control" placeholder="Enter title here">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" id="tags" class="form-control" placeholder="Enter tags (comma separated) here">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" id="url" class="form-control" placeholder="Enter media url here">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label>
+                                <input type="checkbox" id="show_cv">
+                                Show CV
+                            </label>
+                        </div>
+                    </div>
+                    <button onclick="startAnalytics()" type="button" class="btn btn-secondary mb-1">Play</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/0.5.14/hls.min.js"></script>
+    <script src="./5centsCDN-1.0/5centsCDN.js"></script>
+</body>
+</html>
